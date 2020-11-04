@@ -42,11 +42,11 @@
 
   // Numero de enlaces de la pagina
   var enlaces = document.getElementsByTagName("a");
-  alert(prompt("Numero de enlaces = "+enlaces.length));
+  alert(("Numero de enlaces = "+enlaces.length));
 
   // Direccion del penultimo enlace
   var mensaje = "El penultimo enlace apunta a: "+enlaces[enlaces.length-2].href;
-  alert(prompt("\n"+mensaje));
+  alert(("\n"+mensaje));
 
   // Numero de enlaces que apuntan a http://prueba
   var contador = 0;
@@ -56,12 +56,12 @@
       contador++;
     }
   }
-  alert(prompt("<br/>" + contador + " enlaces apuntan a http://prueba"));
+  alert(("<br/>" + contador + " enlaces apuntan a http://prueba"));
 
   // Numero de enlaces del tercer párrafo
   var parrafos = document.getElementsByTagName("p");
   enlaces = parrafos[2].getElementsByTagName("a");
-  alert(prompt("\n" + "Numero de enlaces del tercer párrafo = "+enlaces.length));
+  alert(("\n" + "Numero de enlaces del tercer párrafo = "+enlaces.length));
 }
  </script>       
     </body>
